@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <title>Document</title>
+    <style type="text/css">
+      .container {
+        width: 800px;
+        margin: 0 auto;
+      }
+      .header {
+        min-height: 50px;
+        text-align: center;
+        background-image: url("download (2).jpeg");
+        background-size: cover;
+        background-position: center;
+      }
+      .logo img {
+        width: 200px;
+      }
+      .menu ul {
+        padding: 0;
+      }
+      .menu ul li {
+        display: inline-block;
+        position: relative;
+      }
+      .menu ul li a {
+        padding: 10px 20px;
+        text-decoration: none;
+      }
+      ul.submenu {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        text-align: left;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        display: none;
+      }
+      ul.submenu li {
+        display: block;
+      }
+      ul.submenu li a {
+        display: block;
+        padding: 5px 10px;
+      }
+      .menu ul li:hover ul.submenu {
+        display: block;
+      }
+      .content {
+        font-family: "Raleway", sans-serif;
+        background-color: #ddd;
+        min-height: 500px;
+        overflow: auto;
+      }
+      .content h2 {
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+      }
+      .thumbnail {
+        font-family: "Raleway", sans-serif;
+        background-color: rgb(233, 233, 233);
+        text-align: center;
+        padding: 10px;
+        width: 225px;
+        margin: 10px;
+        float: left;
+      }
+      .thumbnail img {
+        width: 100%;
+      }
+      .footer {
+        background-color: #ccc;
+        padding: 20px;
+        text-align: center;
+      }
+      .jumbotron {
+        font-family: "Raleway", sans-serif;
+        width: 100%;
+        padding: 80px 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: white;
+        background-color: #aaa;
+        background-size: cover;
+        background-position: center;
+        background-image: url("fidel-fernando-3ZAk1JrrzI0-unsplash.jpg");
+        position: relative;
+      }
+      .jumbotron h2,
+      .jumbotron p {
+        position: relative;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="Jeager_client-1-480x171-removebg-preview.png" alt="logo" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#">About</a>
+              <ul class="submenu">
+                <li><a href="#">CV</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Portofolio</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="jumbotron">
+        <div class="overlay"></div>
+        <h2>Welcome to My Homepage</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, amet
+          incidunt neque, quo fugit doloribus itaque doloremque rem deserunt
+          exercitationem, quos qui minima ipsa repellendus expedita nulla
+          facilis possimus eos?
+        </p>
+      </div>
+
+      <div class="content">
+        <h2>My Products</h2>
+        <div class="thumbnail">
+          <img src="suhas-hanjar-7VkZ7xW7Dps-unsplash.jpg" alt="" />
+          <h2>Reverso Tribute Monoface</h2>
+          <p>Rp.47M</p>
+        </div>
+        <div class="thumbnail">
+          <img src="paul-cuoco-CO2vOhPqlrM-unsplash (1).jpg" alt="" />
+          <h2>Jaeger-LeCoultre Atmos</h2>
+          <p>Rp.57M</p>
+        </div>
+        <div class="thumbnail">
+          <img src="paul-cuoco-5_kn5-AC9SQ-unsplash.jpg" alt="" />
+          <h2>Polaris Automatic</h2>
+          <p>Rp.255M</p>
+        </div>
+        <div class="thumbnail">
+          <img src="ojus-jaiswal-ULKTKgXvRBU-unsplash.jpg" alt="" />
+          <h2>Jaeger-LeCoultre Geophysic</h2>
+          <p>Rp.176M</p>
+        </div>
+        <div class="thumbnail">
+          <img src="amr-taha-76tOrFBuiIo-unsplash.jpg" alt="" />
+          <h2>Master Control Date</h2>
+          <p>Rp.98M</p>
+        </div>
+        <div class="thumbnail">
+          <img src="1298ee52be7adf0e5b8ef6b6ff1e8c22.jpg" alt="" />
+          <h2>Jaeger-LeCoultre Heritage</h2>
+          <p>Rp.371M</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>copyright 2026 Rayhan Syaqib Aqil</p>
+      </div>
+    </div>
+  </body>
+</html>
